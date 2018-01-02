@@ -1,4 +1,5 @@
 <h2>The Complete Muscato Metatranscriptome Pipeline</h2>
+*WARNING!: the final code is not yet deposited, this warning will be removed and you'll see the link to the MUSCATO.zip file when its ready for your use. Thank you for your patience!
 
 <h3>Purpose:</h3>
 This pipeline was created so scientists could run the complete microbiome RNA-seq analysis in a single simplified process. 
