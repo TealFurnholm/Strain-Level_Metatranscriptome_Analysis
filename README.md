@@ -17,11 +17,12 @@ You can first analyze your contig genes: https://github.com/TealFurnholm/Teals_S
 <h3>Requirements:</h3>
 Metatranscriptomics data is very large and requires substantial computing power. Hopefully you have server access and some familiarity working on a linux/unix system.
  * If you don't already have them on your system, install 
-   - trimmomatic: http://www.usadellab.org/cms/?page=trimmomatic
-   - bbtools: https://sourceforge.net/projects/bbmap/
-   - diamond: https://github.com/bbuchfink/diamond
-   - perl: https://www.perl.org/get.html
-
+   <br>- trimmomatic: http://www.usadellab.org/cms/?page=trimmomatic
+   <br>- bbtools: https://sourceforge.net/projects/bbmap/
+   <br>- diamond: https://github.com/bbuchfink/diamond
+   <br>- perl: https://www.perl.org/get.html
+   <br>- R (if doing differential expression analysis): https://www.r-project.org/
+   
 <h2>How to Use:</h2>
 https://github.com/TealFurnholm/Metatranscriptome/wiki
 
