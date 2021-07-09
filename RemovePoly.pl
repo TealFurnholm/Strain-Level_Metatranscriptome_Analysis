@@ -97,6 +97,8 @@ while( my $line = <INPUT1> . <INPUT1> . <INPUT1> . <INPUT1> ) {
 
 	$SEQS{$stuff[1]}=$stuff[0];
 	$SCOS{$stuff[1]}=$stuff[3];
+	$CNT{$stuff[1]}++;
+
 
 	if($on%1000000==0){$time = localtime; print "on $on time $time tot $totreads bgood $good lowent $lowent ambig $ambig short $short\n";} 
 	$on++;
@@ -107,6 +109,6 @@ print "tot $totreads bothgood $bothgood forgood $forgood revgood $revgood bothlo
 
 
 foreach my $seq1 (keys %SEQS){
-		$nm1=$SEQS{$seq1};
+		$nm1=$SEQS{$seq1}."_".$CNT{$seq1};
 		print OUTPUT1 "$nm1\n$seq1\n+\n$SCOS{$seq1}\n";
 }
